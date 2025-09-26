@@ -7,11 +7,11 @@ on:
 jobs:
   test:
     timeout-minutes: 60
-    runs-on: windows-latest
+    runs-on: macos-latest
 
     
     steps:
-    - name: Checkout Repository
+    - name: jimitdoshi
       uses: actions/checkout@v4
 
     - name: Set up Node.js
